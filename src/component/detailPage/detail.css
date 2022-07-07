@@ -1,0 +1,53 @@
+.detailCard{
+    border: solid 1px red;
+ 
+}
+
+body{
+    background-color: rgb(223, 219, 219);
+ 
+}
+
+.lower-box{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+   
+}
+
+.upper-box{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+.container{
+    height: 450px;
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    margin-top: 70px;
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.info-box{
+    margin-top: 20px;
+    margin-right: 45px;
+}
+
+.lower-box > div > h2{
+    margin-top: -20px;
+}
+
+.button{
+    margin-left: 385px;
+    font-size: 15px;
+    font-weight: 700;
+}
